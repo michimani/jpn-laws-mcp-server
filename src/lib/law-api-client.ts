@@ -68,7 +68,7 @@ export class LawApiClient {
 
   async searchLaws(params: LawSearchParams): Promise<LawsResponse> {
     return this.makeRequest<LawsResponse>(
-      "/laws",
+      "laws",
       params as Record<string, unknown>,
     );
   }
@@ -78,7 +78,7 @@ export class LawApiClient {
   ): Promise<LawRevisionsResponse> {
     const { law_id_or_num, ...queryParams } = params;
     return this.makeRequest<LawRevisionsResponse>(
-      `/law_revisions/${encodeURIComponent(law_id_or_num)}`,
+      `law_revisions/${encodeURIComponent(law_id_or_num)}`,
       queryParams,
     );
   }
@@ -86,7 +86,7 @@ export class LawApiClient {
   async getLawContent(params: LawContentParams): Promise<LawContentResponse> {
     const { law_id_or_num_or_revision_id, ...queryParams } = params;
     return this.makeRequest<LawContentResponse>(
-      `/law_data/${encodeURIComponent(law_id_or_num_or_revision_id)}`,
+      `law_data/${encodeURIComponent(law_id_or_num_or_revision_id)}`,
       queryParams,
     );
   }
@@ -103,7 +103,7 @@ export class LawApiClient {
   async getAttachment(params: AttachmentParams): Promise<ArrayBuffer> {
     const { law_revision_id, src } = params;
     const url = new URL(
-      `/attachment/${encodeURIComponent(law_revision_id)}`,
+      `attachment/${encodeURIComponent(law_revision_id)}`,
       this.baseURL,
     );
 
@@ -125,7 +125,7 @@ export class LawApiClient {
   async getLawFile(params: LawFileParams): Promise<ArrayBuffer> {
     const { file_type, law_id_or_num_or_revision_id, asof } = params;
     const url = new URL(
-      `/law_file/${encodeURIComponent(file_type)}/${encodeURIComponent(law_id_or_num_or_revision_id)}`,
+      `law_file/${encodeURIComponent(file_type)}/${encodeURIComponent(law_id_or_num_or_revision_id)}`,
       this.baseURL,
     );
 
