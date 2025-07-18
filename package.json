@@ -3,13 +3,16 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "prepare": "husky || true",
     "build": "bun run ./scripts/build.ts",
     "lint": "biome check .",
     "fmt": "biome check --write --unsafe .",
-    "typecheck": "tsc --noEmit",
+    "typecheck:core": "tsc --noEmit src/lib/*.ts",
+    "typecheck:tools": "tsc --noEmit src/mcp/tools/*.ts",
+    "typecheck:types": "tsc --noEmit src/types/*.ts",
+    "typecheck:server": "tsc --noEmit src/server.ts src/index.ts",
     "preinspector": "bun run build",
     "inspector": "mcp-inspector bun run ./dist/index.js"
   },

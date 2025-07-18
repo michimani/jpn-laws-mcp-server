@@ -38,7 +38,10 @@ To use this server with an MCP client, add the following configuration:
 
 ## MCP Tools
 
-**TODO: Add MCP tools here**
+- `search_laws`: Search laws by various criteria such as law ID, title, type, category, etc.
+- `get_law_revisions`: Get law revisions by various criteria such as law ID, title, type, category, etc.
+- `get_law_content`: Get law content by law ID, law number, or revision ID.
+- `search_laws_by_keyword`: Search laws by keyword.
 
 ## License
 
