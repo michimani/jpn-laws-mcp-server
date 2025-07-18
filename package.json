@@ -1,9 +1,9 @@
 {
-  "name": "mcp-server",
+  "name": "jpn-laws-mcp-server",
   "module": "index.ts",
   "type": "module",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.0",
   "scripts": {
     "prepare": "husky || true",
     "build": "bun run ./scripts/build.ts",
@@ -14,12 +14,12 @@
     "inspector": "mcp-inspector bun run ./dist/index.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "1.13.0",
-    "zod": "3.25.67"
+    "@modelcontextprotocol/sdk": "1.16.0",
+    "zod": "4.0.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.0.0",
-    "@modelcontextprotocol/inspector": "0.14.3",
+    "@biomejs/biome": "2.1.2",
+    "@modelcontextprotocol/inspector": "0.16.1",
     "@types/bun": "1.2.16",
     "husky": "9.1.7",
     "lint-staged": "16.1.2",

@@ -1,18 +1,20 @@
-**TODO: Replace `MCP_SERVER` with the name of the server**
+# Japanese Laws MCP Server
 
-# MCP_SERVER
-
-<!-- [![Version](https://img.shields.io/github/v/release/koki-develop/MCP_SERVER)](https://github.com/koki-develop/MCP_SERVER/releases/latest)
-[![License](https://img.shields.io/github/license/koki-develop/MCP_SERVER)](./LICENSE)
-[![Docker](https://img.shields.io/badge/docker-ghcr.io-blue.svg)](https://github.com/koki-develop/MCP_SERVER/pkgs/container/MCP_SERVER) -->
+[![Version](https://img.shields.io/github/v/release/michimani/jpn-laws-mcp-server)](https://github.com/michimani/jpn-laws-mcp-server/releases/latest)
+[![License](https://img.shields.io/github/license/michimani/jpn-laws-mcp-server)](./LICENSE)
+[![Docker](https://img.shields.io/badge/docker-ghcr.io-blue.svg)](https://github.com/michimani/jpn-laws-mcp-server/pkgs/container/jpn-laws-mcp-server)
 
 **TODO: Description**
 
 ## Table of Contents
 
-- [Usage](#usage)
-- [MCP Tools](#mcp-tools)
-- [License](#license)
+- [Japanese Laws MCP Server](#japanese-laws-mcp-server)
+  - [Table of Contents](#table-of-contents)
+  - [Usage](#usage)
+  - [MCP Tools](#mcp-tools)
+  - [License](#license)
+  - [Author](#author)
+  - [Credits](#credits)
 
 ## Usage
 
@@ -21,13 +23,13 @@ To use this server with an MCP client, add the following configuration:
 ```json
 {
   "mcpServers": {
-    "MCP_SERVER": {
+    "jpn-laws-mcp-server": {
       "command": "docker",
       "args": [
         "run",
         "-i",
         "--rm",
-        "ghcr.io/koki-develop/MCP_SERVER:latest"
+        "ghcr.io/michimani/jpn-laws-mcp-server:latest"
       ]
     }
   }
@@ -42,4 +44,10 @@ To use this server with an MCP client, add the following configuration:
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-Copyright (c) 2025 Koki Sato
+## Author
+
+[michimani](https://github.com/michimani)
+
+## Credits
+
+This project is based on [koki-develop/mcp-server-template](https://github.com/koki-develop/mcp-server-template) by [Koki Sato](https://github.com/koki-develop).
