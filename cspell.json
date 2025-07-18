@@ -1,0 +1,17 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "modelcontextprotocol",
+    "asof",
+    "Heisei",
+    "Reiwa",
+    "Meiji",
+    "Taisho",
+    "Showa",
+    "jpn",
+    "lawapi",
+    "mcp"
+  ],
+  "ignorePaths": ["node_modules", "dist", "*.log", "*.md"]
+}

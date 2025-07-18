@@ -1,6 +1,13 @@
 {
   "permissions": {
-    "allow": ["WebFetch(domain:github.com)"],
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(bun run:*)",
+      "Bash(rm:*)",
+      "Bash(bun build:*)",
+      "Bash(biome migrate:*)",
+      "Bash(bunx biome:*)"
+    ],
     "deny": []
   }
 }

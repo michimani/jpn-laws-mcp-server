@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.16.0",
-    "zod": "4.0.5"
+    "zod": "3.25.76"
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.2",
