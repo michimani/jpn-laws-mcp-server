@@ -40,7 +40,7 @@ jobs:
         with:
           cache_save: "false"
       # TODO: add typecheck:tools and typecheck:server
-      # these are use too much memory
+      # these use too much memory
       - run: |
           bun run typecheck:core
           bun run typecheck:types
