@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.3](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.0.2...v1.0.3) (2026-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.29.0 ([545b9d7](https://github.com/michimani/jpn-laws-mcp-server/commit/545b9d79fb257744fbfbe9271e29fdc5fd550859))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.29.0 ([a0b51be](https://github.com/michimani/jpn-laws-mcp-server/commit/a0b51befde2ebd5669842a8843ae83f38b2a6601))
+* resolve typecheck errors with @types/bun v1.3.9 ([900d319](https://github.com/michimani/jpn-laws-mcp-server/commit/900d3192a2c0434180ac479fe54de18ed2de8581))
+
 ## [1.0.2](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.0.1...v1.0.2) (2026-02-19)
 
 
