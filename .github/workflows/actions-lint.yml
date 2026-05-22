@@ -18,6 +18,7 @@ concurrency:
 
 jobs:
   actionlint:
+    name: actionlint
     timeout-minutes: 5
     runs-on: ubuntu-latest
     permissions:
@@ -26,9 +27,10 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
-      - uses: koki-develop/github-actions-lint/actionlint@62dfef5c9854a07712bad7af3bee7edb0c1109b1 # v1.4.1
+      - uses: koki-develop/github-actions-lint/actionlint@5ecd42b59803f14bfaa7ed0bfb8de8c1dc1b4c6d # v1.6.0
 
   ghalint:
+    name: ghalint
     timeout-minutes: 5
     runs-on: ubuntu-latest
     permissions:
@@ -37,11 +39,12 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
-      - uses: koki-develop/github-actions-lint/ghalint@62dfef5c9854a07712bad7af3bee7edb0c1109b1 # v1.4.1
+      - uses: koki-develop/github-actions-lint/ghalint@5ecd42b59803f14bfaa7ed0bfb8de8c1dc1b4c6d # v1.6.0
         with:
           action-path: ./.github/actions/**/action.yml
 
   zizmor:
+    name: zizmor
     timeout-minutes: 5
     runs-on: ubuntu-latest
     permissions:
@@ -50,7 +53,7 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           persist-credentials: false
-      - uses: koki-develop/github-actions-lint/zizmor@62dfef5c9854a07712bad7af3bee7edb0c1109b1 # v1.4.1
+      - uses: koki-develop/github-actions-lint/zizmor@5ecd42b59803f14bfaa7ed0bfb8de8c1dc1b4c6d # v1.6.0
         with:
           github-token: ${{ github.token }}
           persona: auditor
