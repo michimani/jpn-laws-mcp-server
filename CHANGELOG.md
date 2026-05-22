@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.3](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.0.2...v1.0.3) (2026-05-22)
+
+
+### Bug Fixes
+
+* add explanatory comments to permissions in release-please workflow ([1edb6ac](https://github.com/michimani/jpn-laws-mcp-server/commit/1edb6acb22df6b24d611d91b1b66132e77e7e837))
+* add name fields to all jobs to resolve zizmor anonymous-definition findings ([67c0168](https://github.com/michimani/jpn-laws-mcp-server/commit/67c01688b78ae94c1657565023021f72885760c1))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.29.0 ([545b9d7](https://github.com/michimani/jpn-laws-mcp-server/commit/545b9d79fb257744fbfbe9271e29fdc5fd550859))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.29.0 ([a0b51be](https://github.com/michimani/jpn-laws-mcp-server/commit/a0b51befde2ebd5669842a8843ae83f38b2a6601))
+* resolve typecheck errors with @types/bun v1.3.9 ([900d319](https://github.com/michimani/jpn-laws-mcp-server/commit/900d3192a2c0434180ac479fe54de18ed2de8581))
+* update typecheck scripts for TypeScript 6.0 compatibility ([c71e8df](https://github.com/michimani/jpn-laws-mcp-server/commit/c71e8df069b9e880bd023e8e6e28be9e71aec9c5))
+
 ## [1.0.2](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.0.1...v1.0.2) (2026-02-19)
 
 
