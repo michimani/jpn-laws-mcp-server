@@ -12,9 +12,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
-      contents: write
-      pull-requests: write
-      issues: write
+      contents: write # to create release commits and tags
+      pull-requests: write # to create and update release PRs
+      issues: write # to add labels on issues
     outputs:
       release-created: ${{ steps.release-please.outputs.release_created }}
       version: ${{ steps.release-please.outputs.tag_name }}
@@ -30,8 +30,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
-      contents: read
-      packages: write
+      contents: read # to checkout the repository
+      packages: write # to push Docker images to GitHub Container Registry
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
