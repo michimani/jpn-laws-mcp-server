@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.0.3...v1.0.4) (2026-06-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod to v4 ([06df740](https://github.com/michimani/jpn-laws-mcp-server/commit/06df74078cdd23c79dd7b63a92c81be3902fe472))
+
 ## [1.0.3](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.0.2...v1.0.3) (2026-05-22)
 
 
