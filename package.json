@@ -21,7 +21,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.10",
+    "@biomejs/biome": "2.5.11",
     "@modelcontextprotocol/inspector": "0.22.0",
     "@types/bun": "1.4.0",
     "husky": "9.1.7",
