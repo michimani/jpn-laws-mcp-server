@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.1](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.1.0...v1.1.1) (2026-09-11)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @biomejs/biome to v2.5.12 ([4545318](https://github.com/michimani/jpn-laws-mcp-server/commit/45453180f2e6234b9d09b6c3c8f4af82857386c3))
+* **deps:** update dependency @biomejs/biome to v2.5.12 ([a34b4f9](https://github.com/michimani/jpn-laws-mcp-server/commit/a34b4f9c3ba586837aa57ad44f4f7146543f7646))
+* **deps:** update docker/login-action action to v4.6.0 ([a869560](https://github.com/michimani/jpn-laws-mcp-server/commit/a8695604407129a70eb6fae472da8215b36155f7))
+* **deps:** update docker/login-action action to v4.6.0 ([d0558cf](https://github.com/michimani/jpn-laws-mcp-server/commit/d0558cf768690c5a11aad9dbc35787521b7a8d89))
+* **deps:** update docker/setup-qemu-action action to v4.3.0 ([b031bdd](https://github.com/michimani/jpn-laws-mcp-server/commit/b031bdd64ce84350942167324d4fd7db07efc755))
+* **deps:** update docker/setup-qemu-action action to v4.3.0 ([836e559](https://github.com/michimani/jpn-laws-mcp-server/commit/836e559989cc767ed6709eb53537d5ea1ab4cbc4))
+
 ## [1.1.0](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.0.4...v1.1.0) (2026-09-07)
 
 
