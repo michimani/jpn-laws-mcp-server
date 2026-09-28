@@ -1,5 +1,41 @@
 # Changelog
 
+## [1.1.1](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.1.0...v1.1.1) (2026-09-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.30.0 ([50d6b75](https://github.com/michimani/jpn-laws-mcp-server/commit/50d6b75757f2ed86cf351006dce5bdcea762c4e0))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.30.0 ([ac385c9](https://github.com/michimani/jpn-laws-mcp-server/commit/ac385c9352e8775a877b712809570df49705bb0b))
+* **deps:** update dependency zod to v4.6.5 ([8475a60](https://github.com/michimani/jpn-laws-mcp-server/commit/8475a601eb8aa646768b839aa93364c10ef4ce26))
+* **deps:** update dependency zod to v4.6.5 ([11aa940](https://github.com/michimani/jpn-laws-mcp-server/commit/11aa9407735bdec01042783837ce57067cef322f))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @biomejs/biome to v2.5.12 ([4545318](https://github.com/michimani/jpn-laws-mcp-server/commit/45453180f2e6234b9d09b6c3c8f4af82857386c3))
+* **deps:** update dependency @biomejs/biome to v2.5.12 ([a34b4f9](https://github.com/michimani/jpn-laws-mcp-server/commit/a34b4f9c3ba586837aa57ad44f4f7146543f7646))
+* **deps:** update dependency @biomejs/biome to v2.5.13 ([ed2c19e](https://github.com/michimani/jpn-laws-mcp-server/commit/ed2c19ea1ae58f5f3d0ea4bb156813f2da9a9d92))
+* **deps:** update dependency @biomejs/biome to v2.5.13 ([89e04b1](https://github.com/michimani/jpn-laws-mcp-server/commit/89e04b1b254b7b590c52153edc6a35fa0ef6694b))
+* **deps:** update dependency @biomejs/biome to v2.5.14 ([e543dfa](https://github.com/michimani/jpn-laws-mcp-server/commit/e543dfae4e45f60b83c989aacbdb87d42e22e49a))
+* **deps:** update dependency @biomejs/biome to v2.5.14 ([99f9d83](https://github.com/michimani/jpn-laws-mcp-server/commit/99f9d83d1262619c853efb25c0c1ef58ca16f021))
+* **deps:** update dependency bun to v1.4.2 ([bebc044](https://github.com/michimani/jpn-laws-mcp-server/commit/bebc044190c8c6c799d7b31b34e99c1aa78e570e))
+* **deps:** update dependency bun to v1.4.2 ([219a185](https://github.com/michimani/jpn-laws-mcp-server/commit/219a1854a5596bf35a4e48eb7714dd43b6b65959))
+* **deps:** update dependency lint-staged to v17.5.0 ([29584e2](https://github.com/michimani/jpn-laws-mcp-server/commit/29584e2b44ba3f1f74199564e8ddbf16266933db))
+* **deps:** update dependency lint-staged to v17.5.0 ([8a75cad](https://github.com/michimani/jpn-laws-mcp-server/commit/8a75cada9814cc63bed25dd4c7aa389d426c7de2))
+* **deps:** update dependency lint-staged to v17.5.1 ([e966b0f](https://github.com/michimani/jpn-laws-mcp-server/commit/e966b0f8d3458d97da2e02d1468cce21a389e805))
+* **deps:** update dependency lint-staged to v17.5.1 ([aa94925](https://github.com/michimani/jpn-laws-mcp-server/commit/aa94925781925823e139ba42bd7e4e62ad4f764a))
+* **deps:** update docker/build-push-action action to v7.4.0 ([f199e59](https://github.com/michimani/jpn-laws-mcp-server/commit/f199e59b200e29b68cf9275460d62224ce0d1eac))
+* **deps:** update docker/build-push-action action to v7.4.0 ([1c9217f](https://github.com/michimani/jpn-laws-mcp-server/commit/1c9217f8068593b2c79a2565422024d0b41cdc10))
+* **deps:** update docker/login-action action to v4.6.0 ([a869560](https://github.com/michimani/jpn-laws-mcp-server/commit/a8695604407129a70eb6fae472da8215b36155f7))
+* **deps:** update docker/login-action action to v4.6.0 ([d0558cf](https://github.com/michimani/jpn-laws-mcp-server/commit/d0558cf768690c5a11aad9dbc35787521b7a8d89))
+* **deps:** update docker/setup-qemu-action action to v4.3.0 ([b031bdd](https://github.com/michimani/jpn-laws-mcp-server/commit/b031bdd64ce84350942167324d4fd7db07efc755))
+* **deps:** update docker/setup-qemu-action action to v4.3.0 ([836e559](https://github.com/michimani/jpn-laws-mcp-server/commit/836e559989cc767ed6709eb53537d5ea1ab4cbc4))
+* **deps:** update node.js to v24.21.0 ([290bd06](https://github.com/michimani/jpn-laws-mcp-server/commit/290bd0668db35b68476cf8e5d4c5fb2416df0448))
+* **deps:** update node.js to v24.21.0 ([9ade7aa](https://github.com/michimani/jpn-laws-mcp-server/commit/9ade7aac680059b67ea7e0b2f1d245031765a875))
+* **deps:** update oven/bun docker tag to v1.4.2 ([58aea4e](https://github.com/michimani/jpn-laws-mcp-server/commit/58aea4e1349b37a781f169a28aee54f22c8ea90c))
+* **deps:** update oven/bun docker tag to v1.4.2 ([42ab028](https://github.com/michimani/jpn-laws-mcp-server/commit/42ab02826e15dc9a2ca841e15727df658f3dc185))
+
 ## [1.1.0](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.0.4...v1.1.0) (2026-09-07)
 
 
