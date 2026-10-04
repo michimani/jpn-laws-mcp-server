@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.1.2](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.1.1...v1.1.2) (2026-10-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.30.1 ([3c12751](https://github.com/michimani/jpn-laws-mcp-server/commit/3c127511c717af56b0814daa28bc2184a010c192))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.30.1 ([76e7276](https://github.com/michimani/jpn-laws-mcp-server/commit/76e72764fe8ced6c0e10c434f858b991d263f2a2))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @modelcontextprotocol/inspector to v2 ([1eaa1f3](https://github.com/michimani/jpn-laws-mcp-server/commit/1eaa1f379860211c77e1ff6c5f868261e614ec12))
+* **deps:** update dependency @modelcontextprotocol/inspector to v2 ([d29371a](https://github.com/michimani/jpn-laws-mcp-server/commit/d29371abce5dc46fb214646f7d165edd87a3015e))
+* **deps:** update dependency lint-staged to v17.6.0 ([11e4ce1](https://github.com/michimani/jpn-laws-mcp-server/commit/11e4ce10db980b9ebfe0a2097c87a9868a7b0c9a))
+* **deps:** update dependency lint-staged to v17.6.0 ([9aebb4c](https://github.com/michimani/jpn-laws-mcp-server/commit/9aebb4c85a225cf1e13b8d8d700972a079e425ff))
+* **deps:** update docker/setup-buildx-action action to v4.4.1 ([fd35c25](https://github.com/michimani/jpn-laws-mcp-server/commit/fd35c25370d3d01799b33f05d3aef3a004e253b2))
+* **deps:** update docker/setup-buildx-action action to v4.4.1 ([7c521ac](https://github.com/michimani/jpn-laws-mcp-server/commit/7c521ac1be000336479354f630fe65aabed1b0be))
+* **deps:** update docker/setup-qemu-action action to v4.4.0 ([fff70e5](https://github.com/michimani/jpn-laws-mcp-server/commit/fff70e51188771a1acf2949f68f5ab1df979c675))
+* **deps:** update docker/setup-qemu-action action to v4.4.0 ([f6b2f75](https://github.com/michimani/jpn-laws-mcp-server/commit/f6b2f75dd95499d7bc0fa07eb8234f1e2f662894))
+
 ## [1.1.1](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.1.0...v1.1.1) (2026-09-28)
 
 
