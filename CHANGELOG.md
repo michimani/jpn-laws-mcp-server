@@ -1,5 +1,25 @@
 # Changelog
 
+## [1.1.3](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.1.2...v1.1.3) (2026-10-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.32.0 ([97a7d50](https://github.com/michimani/jpn-laws-mcp-server/commit/97a7d50365f89f5e822b34d383bce5ede168a968))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.32.0 ([2ac606f](https://github.com/michimani/jpn-laws-mcp-server/commit/2ac606f2d3e0b51d2a8998d9e17968f386f14c93))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.32.1 ([21f5aea](https://github.com/michimani/jpn-laws-mcp-server/commit/21f5aeadaa25c1745659c8a1301ffd72dd8313fe))
+* **deps:** update dependency @modelcontextprotocol/sdk to v1.32.1 ([6667ddd](https://github.com/michimani/jpn-laws-mcp-server/commit/6667ddd82d79d1e177a8caecc731622def11c32d))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @modelcontextprotocol/inspector to v2.9.0 ([a804344](https://github.com/michimani/jpn-laws-mcp-server/commit/a8043442454709eb51d0d390977770738544396f))
+* **deps:** update dependency @modelcontextprotocol/inspector to v2.9.0 ([1fad28b](https://github.com/michimani/jpn-laws-mcp-server/commit/1fad28b84130125c26b1701063cb109ec2c7b0e8))
+* **deps:** update jdx/mise-action action to v5 ([e6d09f1](https://github.com/michimani/jpn-laws-mcp-server/commit/e6d09f11ae1fc466ad873d4503209550266bae26))
+* **deps:** update jdx/mise-action action to v5 ([dd24459](https://github.com/michimani/jpn-laws-mcp-server/commit/dd24459ad68ecae0823b567475aeadd9fe7cf1a8))
+* **deps:** update jdx/mise-action action to v5.1.1 ([0cc348c](https://github.com/michimani/jpn-laws-mcp-server/commit/0cc348c14a196ef2574dadb723d7aeecda9d581b))
+* **deps:** update jdx/mise-action action to v5.1.1 ([1c7a189](https://github.com/michimani/jpn-laws-mcp-server/commit/1c7a1899e52961ce253778885e2ddfb9ab560b7a))
+
 ## [1.1.2](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.1.1...v1.1.2) (2026-10-04)
 
 
