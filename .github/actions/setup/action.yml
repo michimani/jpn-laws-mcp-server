@@ -10,7 +10,7 @@ inputs:
 runs:
   using: composite
   steps:
-    - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
+    - uses: jdx/mise-action@6612f0ef07ed2a736cd1e00a94a065522dd41195 # v5.2.5
       with:
         cache_save: ${{ inputs.cache_save }}
 
