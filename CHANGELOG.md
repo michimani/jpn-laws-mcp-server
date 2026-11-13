@@ -1,6 +1,6 @@
 # Changelog
 
-## [1.1.3](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.1.2...v1.1.3) (2026-11-12)
+## [1.1.3](https://github.com/michimani/jpn-laws-mcp-server/compare/v1.1.2...v1.1.3) (2026-11-13)
 
 
 ### Bug Fixes
@@ -9,6 +9,8 @@
 * **deps:** update dependency @modelcontextprotocol/sdk to v1.32.0 ([2ac606f](https://github.com/michimani/jpn-laws-mcp-server/commit/2ac606f2d3e0b51d2a8998d9e17968f386f14c93))
 * **deps:** update dependency @modelcontextprotocol/sdk to v1.32.1 ([21f5aea](https://github.com/michimani/jpn-laws-mcp-server/commit/21f5aeadaa25c1745659c8a1301ffd72dd8313fe))
 * **deps:** update dependency @modelcontextprotocol/sdk to v1.32.1 ([6667ddd](https://github.com/michimani/jpn-laws-mcp-server/commit/6667ddd82d79d1e177a8caecc731622def11c32d))
+* **deps:** update dependency zod to v4.6.6 [security] ([29da874](https://github.com/michimani/jpn-laws-mcp-server/commit/29da874edc473df412337b43e7a831630289009e))
+* **deps:** update dependency zod to v4.6.6 [security] ([31ee8c5](https://github.com/michimani/jpn-laws-mcp-server/commit/31ee8c5a508f96dd40a641799e3b3d240a7ca1de))
 
 
 ### Miscellaneous Chores
